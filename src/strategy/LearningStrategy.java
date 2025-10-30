@@ -1,4 +1,5 @@
 package strategy;
 
-public class LearningStrategy {
+public interface LearningStrategy {
+    void learn(String courseTitle);
 }
